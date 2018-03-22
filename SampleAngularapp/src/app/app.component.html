@@ -1,0 +1,12 @@
+<!-- interpolation-->
+<h1>{{title}}</h1><br>
+<!-- Accessing array -->
+<h5> Employee Names : {{Names}}</h5>
+<br>
+<!--Accessing Array of Objects using ng-for-->
+<div *ngFor="let info of personalInfo">
+    <p><b>Name:</b> {{info.name}}</p>
+    <p><b>City:</b> {{info.city}}</p>
+</div>
+<!--Accessing Child Component-->
+<app-child-component></app-child-component>

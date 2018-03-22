@@ -1,0 +1,30 @@
+<p>
+  child-component works!
+</p>
+<!-- structural directive -->
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>GENDER</th>
+      <th>SALARY</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let info of employeeInformation">
+      <td>
+        {{info.id}}
+      </td>
+      <td>
+        {{info.gender}}
+      </td>
+      <td>
+        {{info.salary}}
+      </td>
+    </tr>
+  </tbody>
+</table>
+<app-input-decorator [empDetails]="Details"></app-input-decorator>
+<app-eventbinding (details)="displaydata($event)"></app-eventbinding>
+<!-- output decorator -->
+ {{Caption}}

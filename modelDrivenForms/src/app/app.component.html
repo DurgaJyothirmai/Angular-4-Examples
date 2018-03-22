@@ -1,0 +1,25 @@
+<div class="container">
+    <form [formGroup]="userFormDetails" (ngSubmit)="submitDetails()">
+        <div class="form-group">
+          <label>Firts Name</label>
+          <input type="text" class="form-control" formControlName="fname"/>
+        </div>
+        <div class="form-group">
+          <label>Last Name</label>
+          <input type="text" class="form-control" formControlName="lname"/>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="text" class="form-control" formControlName="email"/>
+        </div>
+        <div class="form-group">
+          <label>Contact Number</label>
+          <input type="text" class="form-control" formControlName="contact"/>
+        </div>
+        <div class="form-group">
+          <label>Postal Code</label>
+          <input type="text" class="form-control" formControlName="postalcode"/>
+        </div>
+        <button type="submit" value="submit">SUBMIT</button>
+      </form>    
+</div>

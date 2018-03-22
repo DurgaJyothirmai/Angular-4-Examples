@@ -1,0 +1,24 @@
+{
+    "Details": [
+        {
+            "Name": "Hillary",
+            "City":"Guntur",
+            "Profession":"Doctor"
+        },
+        {
+            "Name": "Subash",
+            "City":"Hyderabad",
+            "Profession":"Engineer"
+        },
+        {
+            "Name": "Roshan",
+            "City":"Chennai",
+            "Profession":"Doctor"
+        },
+        {
+            "Name": "Harish",
+            "City":"Delhi",
+            "Profession":"Engineer"
+        }
+    ]
+}

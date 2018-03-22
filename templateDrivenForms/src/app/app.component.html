@@ -1,0 +1,23 @@
+<div class="container">
+  <form #userDetailsForm="ngForm" (ngSubmit)="getDetails(userDetailsForm.value)">
+
+    <div class="form-group">
+      <label>Name:<input type="text" class="form-control" name="name" ngModel/></label><br><br>
+    </div>
+    <div class="form-group">
+        <label>Email:<input type="text" class="form-control" name="email" ngModel/> </label><br><br>
+    </div>
+    <div class="form-group">
+        <label>Contact Us:<input type="text" class="form-control" name="contactus" ngModel/></label><br><br>
+    </div>
+    <div class="form-group">
+        <label>Country:<input type="text" class="form-control" name="country" ngModel/> </label><br><br>
+    </div>
+    <div class="form-group">
+        <label>Postal Code:<input type="text" class="form-control" name="postalcode" ngModel/></label><br><br>
+    </div>
+    <button type="submit">Submit</button>
+
+  </form>
+</div>
+<app-twowaybinding></app-twowaybinding>
